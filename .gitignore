@@ -1,0 +1,28 @@
+# --- .NET Core / C# ---
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio / VS Code workspace files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Base de datos locales o archivos de configuración sensibles
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+appsettings.Development.json
+.env
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
