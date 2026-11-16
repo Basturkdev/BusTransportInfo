@@ -5,9 +5,8 @@ namespace BusTransportInfo.Models
     public class RutaBus
     {
         public string NombreRuta {get; set;}
-        public string PlacaBus {get; set;}
-        public bool AireAcondicionado {get; set;}
-        public int Capacidad {get; set;}
-        
+        public ParadaBus UbicacionP {get; set;}
+        public string PuntiInicial {get; set;}
+        public string PuntoFinal {get; set;}
     }
 }
